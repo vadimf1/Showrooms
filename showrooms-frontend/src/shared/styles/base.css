@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap');
+
+:root {
+  --ink: #111111; --ink-2: #2a2a2a; --muted: #6b7280; --muted-2: #9aa0a6;
+  --line: #e7e7e9; --line-2: #efeff1; --bg: #f8f8f8; --card: #ffffff;
+  --accent: #2563eb; --accent-ink: #1e4fd1; --accent-soft: #eaf0ff;
+  --success: #16a34a; --success-soft: #e6f6ec;
+  --danger: #c0392b; --danger-soft: #fdecea;
+  --warn: #c2710c; --warn-soft: #fdf2e1;
+  --radius: 14px;
+  --shadow-sm: 0 1px 2px rgba(17,17,17,.04), 0 1px 0 rgba(17,17,17,.02);
+  --shadow: 0 4px 14px rgba(17,17,17,.06), 0 1px 2px rgba(17,17,17,.04);
+  --shadow-lg: 0 24px 60px rgba(17,17,17,.18), 0 6px 18px rgba(17,17,17,.08);
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html, body { height: 100%; }
+body { font-family: 'Inter', system-ui, -apple-system, sans-serif; color: var(--ink); background: var(--bg); -webkit-font-smoothing: antialiased; }
+button { font-family: inherit; cursor: pointer; }
+input, select { font-family: inherit; }
+a { color: inherit; text-decoration: none; }
+.app { min-height: 100vh; display: flex; flex-direction: column; }

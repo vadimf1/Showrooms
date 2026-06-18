@@ -1,0 +1,5 @@
+aiogram==3.27.0
+httpx
+pydantic-settings
+python-dotenv
+aiokafka
