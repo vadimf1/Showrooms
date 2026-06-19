@@ -9,8 +9,8 @@
 | Сервис | Технологии | Порт |
 |---|---|---|
 | `showrooms-api` | Django 5, DRF, PostgreSQL, Kafka | 8000 |
-| `showrooms-frontend` | React 18, TypeScript, Vite | 5173 |
-| `showrooms-admin` | React 18, TypeScript, Vite | 5174 |
+| `showrooms-frontend` | React 19, TypeScript, Vite | 5173 |
+| `showrooms-admin` | React 19, TypeScript, Vite | 5174 |
 | `showrooms-recommender` | FastAPI, scikit-learn, SQLAlchemy | 8001 |
 | `showrooms-bot` | Python, aiogram 3, Kafka | — |
 
